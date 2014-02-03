@@ -6,14 +6,9 @@ import java.util.function.Predicate;
 public class Sandbox {
 	
 	public static void main(String[] args) {
-		
-		
 		List<TestObject> objList = new TestObject().generateTestObjectList();
-		
 		Predicate<TestObject> objFilter = tO -> tO.getA() > 20;
-		
 		objList.stream().filter(objFilter).forEach(tO -> tO.displayObject());
-		
 	}
 
 }
