@@ -1,5 +1,7 @@
 package com.blogspot.howdoidothatinjava.sandbox;
 
+import static com.blogspot.howdoidothatinjava.utilities.PrintUtilties.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,7 +53,7 @@ public class TestObject {
 	
 	public void displayObject(){
 	    String tabs = getName().length() > 9 ? "\t" : "\t\t";
-		System.out.println("TestObject (" + getName() + "):" + tabs + "a: " + getA() + "\tb: " + getB());
+		println("TestObject (" + getName() + "):" + tabs + "a: " + getA() + "\tb: " + getB());
 	}
 	
 }

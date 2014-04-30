@@ -1,7 +1,5 @@
 package com.blogspot.howdoidothatinjava.utilities;
 
-import java.util.function.Function;
-
 public class PrintUtilties {
     
     public final static String under = "*";
